@@ -1,0 +1,71 @@
+/* Reset Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  margin: 2rem 0 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+  background-color: #F0F0F0;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  margin-left: 1rem;
+}
+
+/* Hero Section Styles */
+#hero {
+  background-color: #7CA8D8;
+  color: #fff;
+  text-align: center;
+  padding: 5rem;
+}
+
+#hero h2 {
+  margin-bottom: 2rem;
+}
+
+.btn-primary {
+  background-color: #4A6C8B;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #2E485D;
+}
+
+/* Sections Styles */
